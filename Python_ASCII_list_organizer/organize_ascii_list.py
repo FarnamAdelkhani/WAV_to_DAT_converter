@@ -20,7 +20,9 @@ def organize_input_dat(input, output_temp):
             temp = line.strip()
             single_column_input += [temp]
             
-            if len(single_column_input) == 12:
+            
+            """Indicate desired row length """
+            if len(single_column_input) == 6:
                 #Store as comma seperated string
                 input_row = '%s' % ', '.join(map(str, single_column_input))
                 single_column_input = []
@@ -50,7 +52,7 @@ def append_comma(output_temp, output):
 if __name__ == "__main__":
     
     """Specify input filename:"""
-    input ='violin_sample_44KHz.dat'
+    input ='low_pass_kernel.dat'
     
     #temp output to store values without appended comma
     output_temp ='temporary.dat'

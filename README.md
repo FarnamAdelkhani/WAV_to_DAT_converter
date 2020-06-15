@@ -5,7 +5,7 @@ Alternatively, a snippet is provided to act on a single file.
 
 # Python_ASCII_list_organizer   
 Organize a single column list within a .dat or .txt file into user specified comma seperated row lengths.  
-ie:  
+#### For Example:  
 #### Define row length 3:  
 #### Before:  
 1  
